@@ -1,16 +1,16 @@
 using Microsoft.Playwright;
 
-namespace TestProject;
+namespace TestProject.Base;
 
 /// <summary>
-/// Base class for tests
+/// Base class for UI tests
 /// </summary>
 [TestClass]
-public class TestBase
+public class UiTestBase
 {
     protected const string WebsiteUrl = "https://alza.cz";
-    protected IBrowser? Browser { get; private set; }
-    protected IPage? Page { get; private set; }
+    protected IBrowser Browser { get; private set; }
+    protected IPage Page { get; private set; }
     
     /// <summary>
     /// Test initialize

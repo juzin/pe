@@ -1,6 +1,6 @@
 namespace TestProject;
 
-public class PageObject
+public static class Locators
 {
     /// <summary>
     /// //a[contains(@class, 'cookie') and contains(@class, 'accept')]
