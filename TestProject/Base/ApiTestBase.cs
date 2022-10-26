@@ -8,9 +8,9 @@ namespace TestProject.Base;
 [TestClass]
 public class ApiTestBase
 {
-    protected const string ApiKey = "29ee192fbc2b3f319503d04049f74a1e";
+    protected const string ApiKey = "xxx";
 
-    protected string ApiToken = "e5da56dfc7036b72675f299d3d128b95b472db2a2dec528ae764edacf59bf1ca";
+    protected string ApiToken = "yyyyyyyyyy";
     protected Uri BaseAddress { get; } = new ("https://api.trello.com/");
     
     /// <summary>
